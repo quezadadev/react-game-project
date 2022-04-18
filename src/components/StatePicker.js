@@ -1,13 +1,13 @@
 import React from 'react';
 
 
-const StatePicker = ({ states, checkStatefunciton }) => {
+const StatePicker = ({ states, checkStateFunction }) => {
   return (
     <div className='state-picker'>
        { states.map( obj  => {
             return <p 
                     onClick={ (e) => {
-                      checkStatefunciton(e);
+                      checkStateFunction(e);
                       }} 
                     key={obj.id}
                     > 
