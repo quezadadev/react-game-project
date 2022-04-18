@@ -50,7 +50,7 @@ const Game = ({ states }) => {
     <div>
     <StateIcon icon={ correctState } />
    
-    <StatePicker states={ states } checkStatefunciton={ checkCorrectState }  />
+    <StatePicker states={ states } checkStatefunction={ checkCorrectState }  />
     {/* <div className='state-picker'>
        { states.map( obj  => {
             return <p 
